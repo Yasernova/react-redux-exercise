@@ -42,7 +42,7 @@ It's perfectly fine if there is no CSS.
 
 ## Running the app
 
-Clone the repo and install the dependencies then start lunch the app in dev mode using yarn or npm.
+Clone the repo and install the dependencies then lunch the app in dev mode using yarn or npm.
 
 ```
 $ yarn | npm install
