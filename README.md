@@ -18,17 +18,7 @@ If you know a bit about debouncing, memoization, unit testing... don't be shy to
 
 There is only one technical requirement and it is to use Redux to build this app.
 
-You have the freedom to choose any Redux helper libraries of course or you can go vanilla Redux. We recommand picking a library to handle the fake network call though.
-
-Here's a good starting point for your state shape but feel free to go a different way if you'd like.
-
-```js
-const initialState = {
-  query: "",
-  heroes: [],
-  isFetching: false
-};
-```
+You have the freedom to choose any Redux helper libraries of course or you can go vanilla Redux. We recommand using redux sagas to handle the fake network call.
 
 We provide the list of heroes in a db.json file and a fake api function to simulate the search request over the network.
 
