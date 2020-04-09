@@ -1,7 +1,11 @@
 import React from "react";
+import { Provider } from 'react-redux'
 
-const App = () => {
-  return <h1>Searchable heroes</h1>;
-};
+import './App.css'
+
+import SearchableHeroes from "./components/SearchableHeroes";
+import store from "./store";
+
+const App = () => <Provider store={store}><SearchableHeroes /></Provider>;
 
 export default App;

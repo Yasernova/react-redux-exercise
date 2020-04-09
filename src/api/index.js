@@ -1,6 +1,7 @@
-import { heroes } from "./heroes";
+import { heroes } from "./db";
 
 export const search = query => {
+  console.log({ query })
   const results = heroes.filter(hero => {
     let keep = false;
 
@@ -18,6 +19,6 @@ export const search = query => {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(results);
-    }, Math.ceil(Math.random() * 500));
+    }, Math.ceil(Math.random() * 1000));
   });
 };
