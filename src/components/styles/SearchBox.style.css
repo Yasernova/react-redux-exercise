@@ -1,0 +1,25 @@
+.search-box {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+img {
+  height: 15px;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+input {
+  display: inline-block;
+  flex-grow: 1;
+  outline: none;
+  border: none;
+  font-size: 14px;
+}
